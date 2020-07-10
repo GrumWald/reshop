@@ -37,3 +37,17 @@ html,body {
     color: #00d8ff;
     transition: 0.5s;
 }
+
+.photosList {
+    display: flex;
+    flex-direction: row;
+}
+
+.photo {
+    display: inline-block;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    width: 150px;
+    height: 200px;
+    border: 1px white dotted;
+}
